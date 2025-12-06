@@ -11,7 +11,7 @@ streamlit run app.py
 import streamlit as st
 import yfinance as yf
 from langchain_openai import ChatOpenAI
-from langchain.agents import AgentExecutor, create_openai_functions_agent
+from langchain.agents import AgentExecutor, create_tool_calling_agent
 from langchain.tools import Tool
 from langchain.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain.schema import HumanMessage, AIMessage
@@ -412,7 +412,7 @@ def create_agent(api_key: str):
     ])
     
     # Create agent
-    agent = create_openai_functions_agent(llm, tools, prompt)
+    agent = create_tool_calling_agent(llm, tools, prompt)
     agent_executor = AgentExecutor(
         agent=agent,
         tools=tools,
