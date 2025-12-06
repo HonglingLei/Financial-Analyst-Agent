@@ -15,11 +15,9 @@ from langchain.agents import AgentExecutor, create_tool_calling_agent
 from langchain.tools import Tool
 from langchain.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain.schema import HumanMessage, AIMessage
-from datetime import datetime, timedelta
-import pandas as pd
+from datetime import datetime
 import plotly.graph_objects as go
 import plotly.express as px
-import json
 import re
 
 # Page config
