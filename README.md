@@ -2,7 +2,7 @@
 
 AI-powered financial research assistant using LangChain and OpenAI. Analyze stocks, compare companies, and visualize market data through natural language queries.
 
-**[🚀 Try the Live Demo](https://<TBD>.streamlit.app)**
+**[🚀 Try the Live Demo](https://financial-analyst-agent.streamlit.app/)**
 
 ## Features
 
