@@ -38,5 +38,9 @@ Thumbs.db
 *.log
 logs/
 
+# Coding assistants
+.claude/
+CLAUDE.md
+
 # uv lock file (included for reproducible builds)
 # uv.lock is intentionally tracked
