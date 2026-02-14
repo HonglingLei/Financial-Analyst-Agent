@@ -40,3 +40,6 @@ logs/
 
 # uv lock file (included for reproducible builds)
 # uv.lock is intentionally tracked
+
+# Coding assistants
+CLAUDE.md
