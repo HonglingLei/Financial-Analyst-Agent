@@ -27,3 +27,16 @@ htmlcov/
 
 # OS
 .DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+
+# uv lock file (included for reproducible builds)
+# uv.lock is intentionally tracked

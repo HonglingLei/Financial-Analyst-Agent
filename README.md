@@ -2,8 +2,6 @@
 
 AI-powered financial research assistant using LangChain and OpenAI. Analyze stocks, compare companies, and visualize market data through natural language queries.
 
-**[🚀 Try the Live Demo](https://financial-analyst-agent.streamlit.app/)**
-
 ## Features
 
 - Real-time stock data & fundamentals
@@ -12,7 +10,17 @@ AI-powered financial research assistant using LangChain and OpenAI. Analyze stoc
 - Multi-stock comparison
 - AI-powered analysis
 
-Enter your OpenAI API key in the sidebar to start analyzing!
+## Quick Start
+
+```bash
+# Install dependencies
+uv sync
+
+# Run the app
+chainlit run chainlit_app.py
+```
+
+Enter your OpenAI API key when prompted to start analyzing!
 
 ## Example Queries
 
@@ -30,7 +38,7 @@ Enter your OpenAI API key in the sidebar to start analyzing!
 
 ## Tech Stack
 
-**AI**: LangChain + OpenAI | **Data**: yfinance | **Charts**: Plotly | **Frontend**: Streamlit
+**AI**: LangChain + OpenAI | **Data**: yfinance | **Charts**: Plotly | **Frontend**: Chainlit
 
 ## Disclaimer
 
